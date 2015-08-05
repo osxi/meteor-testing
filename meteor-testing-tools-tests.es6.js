@@ -22,18 +22,18 @@ Tinytest.add('MTT#getValidity OK', test => {
   test.equal(typeof MTT.getValidity, "function");
 });
 
-Tinytest.skip('#fillIn', test => {
-  // TODO
-});
+// Tinytest.skip('#fillIn', test => {
+//   // TODO
+// });
 
-Tinytest.skip('#check', test => {
-  // TODO
-});
+// Tinytest.skip('#check', test => {
+//   // TODO
+// });
 
-Tinytest.skip('#submit', test => {
-  // TODO
-});
+// Tinytest.skip('#submit', test => {
+//   // TODO
+// });
 
-Tinytest.skip('#getValidity', test => {
-  // TODO
-});
+// Tinytest.skip('#getValidity', test => {
+//   // TODO
+// });
