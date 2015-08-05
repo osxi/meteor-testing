@@ -1,4 +1,4 @@
-Meteor Testing Tools
+Meteor Testing Tools [![Build Status](https://travis-ci.org/osxi/meteor-testing-tools.svg)](https://travis-ci.org/osxi/meteor-testing-tools)
 ====================
 
 Meteor Testing Tools are a collection of tools for use in Meteor apps tested with Velocity + Mocha + Chai along with support for AutoForm. This tool might be compatible with other test frameworks like Jasmine.
