@@ -1,6 +1,6 @@
 Package.describe({
   name: 'osxi:meteor-testing-tools',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Tools to help you test in Meteor',
   git: 'https://github.com/osxi/meteor-testing-tools',
   documentation: 'README.md'
