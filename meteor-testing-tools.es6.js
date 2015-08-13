@@ -27,5 +27,15 @@ MTT = {
         reject(e);
       }
     });
+  },
+  clickOn(text) {
+    return new Promise((resolve, reject) => {
+      try {
+        var clickOnResult = $("div,a:contains('" + text + "')").click();
+        resolve(clickOnResult);
+      } catch(e) {
+        reject(e);
+      }
+    });
   }
 };

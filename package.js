@@ -17,5 +17,5 @@ Package.onTest(function(api) {
   api.use('tinytest');
   api.use('grigio:babel@0.0.14');
   api.use('osxi:meteor-testing-tools');
-  api.addFiles('meteor-testing-tools-tests.es6.js', ["client"]);
+  api.addFiles('meteor-testing-tools-tests.es6.js');
 });
