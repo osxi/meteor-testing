@@ -4,10 +4,12 @@ MTT = {
   fillIn(property, value) {
     return $("input[placeholder='" + property + "']").val(value);
   },
+
   check(property, value) {
     var sel = "input[type='checkbox'][name='" + property + "']";
     return $(sel).prop('checked', value);
   },
+
   submit(formSelector) {
     return new Promise((resolve, reject) => {
       try {
@@ -18,6 +20,7 @@ MTT = {
       }
     });
   },
+
   getValidity(formSelector) {
     return new Promise((resolve, reject) => {
       try {
@@ -28,6 +31,7 @@ MTT = {
       }
     });
   },
+
   clickOn(text) {
     return new Promise((resolve, reject) => {
       try {
